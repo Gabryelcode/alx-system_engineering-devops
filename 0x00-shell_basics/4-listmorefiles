@@ -1,2 +1,2 @@
-#!/bin/branch
+#!/bin/bash
 ls -la
