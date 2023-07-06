@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# running nginx on port 80
+# Models include: first, dropping existing ../sites-enabled/default update on the same line with
+# ../sites-available/default. 
+# Attn: command flag -s init a symbolic link, -f command drops the existing file and updates it
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
